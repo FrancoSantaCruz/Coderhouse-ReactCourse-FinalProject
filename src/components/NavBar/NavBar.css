@@ -1,0 +1,100 @@
+.nav-bar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: rgba(39, 39, 37, 0.797); 
+    height: 8rem;
+}
+
+.nav-col.izq{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-col.izq a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #ebc400;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 1s;
+}
+
+.nav-col.izq a:hover{
+    border-top: 1px solid rgb(235, 196, 0);
+    box-shadow: 0px 2px 3px 2px rgba(163, 163, 0, 0.514);
+    border-radius: 1rem;
+}
+
+.nav-col.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(2.5rem);
+}
+
+.nav-col.der{
+    display: flex;
+    justify-content: right;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+.options{
+    display: flex;
+}
+
+.options .__login{
+    padding: 0.2rem 1.5rem 0rem 1.5rem;
+    height: fit-content;
+    transition: all 1s;
+}
+.__login:hover{
+    transform: rotate(25deg);
+}
+.options .__register{
+    padding: 0.2rem 1.5rem 0rem 1.5rem;
+    height: fit-content;
+    transition: all 1s;
+}
+.__register:hover{
+    transform: rotate(25deg);
+}
+.options .__cart{
+    padding: 0.2rem 1.5rem 0rem 1.5rem;
+    height: fit-content;
+    transition: all 1s;
+}
+.__cart:hover{
+    transform: rotate(25deg);
+}
+.__cart p{
+    color: red;
+    border: 1px solid #ebc400;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.search-container .searchbox{
+    padding: 0rem 1rem 0rem 1rem;
+    height: 1.5rem;
+    background-color: transparent;
+    color: #ebc400;
+    font-weight: bold;
+    border: transparent;
+    transition: all 1s;
+}
+
+.search-container .searchbox:focus, .searchbox:hover{
+    background-color: rgba(39, 39, 37, 0.7); 
+    border-radius: 0.4rem;
+    border: 1px solid #ebc400;
+}
+
+.search-container .search-btn{
+    padding: 0rem 1.2rem 0rem 0.8rem;
+    height: fit-content;
+}
+
+
+
+

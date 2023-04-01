@@ -1,0 +1,18 @@
+* {
+    font-family: "Philosopher", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background-color: #101010;
+    opacity: 1;
+    background-image: radial-gradient(#ffab00 1.4px, transparent 1.4px), radial-gradient(#ffab00 1.4px, #101010 1.4px);
+    background-size: 56px 56px;
+    background-position: 0 0, 28px 28px;
+  }
