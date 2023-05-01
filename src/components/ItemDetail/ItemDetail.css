@@ -1,0 +1,68 @@
+.detailProduct__container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+    padding: 5rem;
+
+}
+
+.detailProduct__imgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.826);
+    border-radius: 1rem;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    transition: all 2s;
+}
+
+.detailProduct__img{
+    width: 80%;
+}
+
+.detailProduct__imgContainer:hover{
+    border-radius: 10rem;
+    background-color: goldenrod;
+}
+
+
+.detailProduct__desc{
+    background-color:rgba(128, 128, 128, 0.826);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 2rem;
+    margin: 0rem 2rem 0rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px goldenrod;
+}
+
+.detailProduct__nombre{
+    font-size: 2rem;
+    color: silver;
+    font-weight: lighter;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+.detailProduct__marca{
+    font-size: 2.8rem;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+    align-self: center;
+}
+.detailProduct__precio{
+    margin:5rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 1px 1px 2px black;
+
+}
+.detailProduct__stock{
+    font-size: 0.8rem;
+    color: greenyellow;
+    text-shadow: 1px 1px 2px black;
+}

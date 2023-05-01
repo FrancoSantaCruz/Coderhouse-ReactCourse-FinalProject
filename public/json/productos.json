@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "Economicos",
+        "nombre": "Blended Scotch Whisky",
+        "marca": "Grant's Triple Wood",
+        "precio": 6999,
+        "stock": 12,
+        "img": "/img/prod1.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": "Mas-Vendido",
+        "nombre": "Tennessee Whiskey",
+        "marca": "Jack Daniel's",
+        "precio": 7699,
+        "stock": 8,
+        "img": "/img/prod2.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": "Mas-Vendido",
+        "nombre": "Red Label 750ml",
+        "marca": "Johnnie Walker",
+        "precio": 6299,
+        "stock": 10,
+        "img": "/img/prod3.png"
+    },
+    {
+        "id": 4,
+        "idCategoria": "Recomendados",
+        "nombre": "Signature Craft 12yo Bourbon",
+        "marca": "Jeam Beam",
+        "precio": 60199,
+        "stock": 8,
+        "img": "/img/prod4.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": "Economicos",
+        "nombre": "Whisky Nacional",
+        "marca": "Premium",
+        "precio": 3099,
+        "stock": 41,
+        "img": "/img/prod5.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": "Economicos",
+        "nombre": "Scotch Whisky",
+        "marca": "White Horse",
+        "precio": 2511,
+        "stock": 28,
+        "img": "/img/prod6.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": "Exclusivos",
+        "nombre": "Blue Label",
+        "marca": "Johnnie Walker",
+        "precio": 74389,
+        "stock": 8,
+        "img": "/img/prod7.png"
+    },
+    {
+        "id": 8,
+        "idCategoria": "Recomendados",
+        "nombre": "Blended Scotch Whisky 12yo",
+        "marca": "Chivas Regal",
+        "precio": 10400,
+        "stock": 19,
+        "img": "/img/prod8.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": "Recomendados",
+        "nombre": "Blenders Pride",
+        "marca": "Seagram's",
+        "precio": 14999,
+        "stock": 18,
+        "img": "/img/prod9.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": "Exclusivos",
+        "nombre": "Highland Single Malt",
+        "marca": "The Dalmore King Alexander III",
+        "precio": 149900,
+        "stock": 4,
+        "img": "/img/prod10.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": "Exclusivos",
+        "nombre": "Scotch 21yo Ruby",
+        "marca": "Royal Salute",
+        "precio": 51149,
+        "stock": 10,
+        "img": "/img/prod11.png"
+    }
+]

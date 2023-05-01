@@ -1,0 +1,69 @@
+.card{
+    border: 2px solid goldenrod;
+    border-radius: 2rem;
+    width: 50%;
+    height: auto;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.card__img{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.27);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom: 1px solid goldenrod;
+}
+
+.card__desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card__detailBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom-left-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+    background-color: rgba(128, 128, 128, 0.27);
+}
+
+.card__nombre{
+    font-size: 1.8rem;
+    color: silver;
+    margin-top: 1rem;
+}
+.card__marca{
+    font-size: 1.4rem;
+    color: silver;
+    font-weight: bold;
+}
+.card__precio{
+    font-size: 1.2rem;
+    color: goldenrod;
+    margin: 2rem;
+    text-shadow: 1px 1px 2px gold;
+
+}
+.card__stock{
+    display: flex;
+    width: 100%;
+    color: greenyellow;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.card__btn{
+    background-color: goldenrod;
+    border-bottom-right-radius: 1.8rem;
+    color: silver;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+    padding: 0.5rem;
+}
