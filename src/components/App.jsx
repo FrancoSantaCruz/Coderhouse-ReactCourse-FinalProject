@@ -8,6 +8,7 @@ import { Footer } from './Footer/Footer';
 import { ItemListContainer } from './ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Checkout } from './Checkout/Checkout';
+import { Cart } from './Cart/Cart';
 
 export const App = () => {
     return (
@@ -19,6 +20,7 @@ export const App = () => {
                     <Route path='/category/:category' element={<ItemListContainer />} />
                     <Route path='/product/:id' element={<ItemDetailContainer />} />
                     <Route path='/checkout' element={<Checkout />}></Route>
+                    <Route path='/cart' element={<Cart/> } />
                 </Routes>
                 <Footer />
             </BrowserRouter>

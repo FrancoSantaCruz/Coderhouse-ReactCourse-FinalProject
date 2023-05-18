@@ -1,10 +1,18 @@
-import React from 'react';
+import { useCartContext } from "../../context/CartContext";
+import { Link } from 'react-router-dom';
 
-export const CartWidget = ({cantidadCarrito}) => {
+export const CartWidget = () => {
+
+    const { getItemQuantity } = useCartContext()
+
     return (
-        <div className="__cart">
-            <a href='/'><i className="fa-solid fa-cart-plus" style={{"color": "#ebc400"}}/></a>
-            <p>{cantidadCarrito}</p>
-        </div>
+        <>
+            <button className="__cart">
+                <Link to={'/cart'}>
+                    <i className="fa-solid fa-cart-plus" style={{ "color": "#ebc400" }} />
+                    {getItemQuantity() > 0 && <span className="__cantCarrito">{getItemQuantity()}</span>}
+                </Link>
+            </button>
+        </>
     );
 }

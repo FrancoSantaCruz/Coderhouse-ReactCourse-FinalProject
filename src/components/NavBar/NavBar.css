@@ -68,6 +68,7 @@
     padding: 0.2rem 1.5rem 0rem 1.5rem;
     height: fit-content;
     transition: all 1s;
+    background-color: transparent;
 }
 .__cart:hover{
     transform: rotate(25deg);
