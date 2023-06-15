@@ -1,0 +1,38 @@
+.form__container{
+    display: flex;
+    border: 2px solid #ffab00;
+    color: #ffab00;
+    width: fit-content;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.form__field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.form__field input{
+    background-color: rgba(172, 172, 172, 0.64);
+    border-radius: 0.5rem;
+    height: 1.2rem;
+}
+
+.form__btn{
+    border: 2px solid #ffab00;
+    color: #ffab00;
+    background-color: transparent;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+
+.form__btn:hover{
+    transform: rotate(10deg);
+}

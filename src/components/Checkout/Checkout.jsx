@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import './Checkout.css'
 import { useCartContext } from "../../context/CartContext";
 import { Link, useNavigate } from "react-router-dom";
 import { createOrdenCompra, getProd, updateProd } from "../../firebase/firebase";
@@ -94,7 +95,7 @@ export const Checkout = () => {
 
                         <div>
                             <div className="form__container">
-                                <form onSubmit={getForm} ref={datForm} id="buyForm">
+                                <form onSubmit={getForm} ref={datForm} className="buyForm">
 
                                     <div className="form__field">
                                         <label htmlFor="nombre" className="form__name">Nombre y Apellido</label>

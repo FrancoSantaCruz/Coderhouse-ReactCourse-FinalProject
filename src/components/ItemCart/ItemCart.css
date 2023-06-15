@@ -1,0 +1,17 @@
+.deleteBtn{
+    background-color: transparent;
+    height: 1.5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border: 1px solid red;
+    color: red;
+    margin: 1rem;
+    
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.deleteBtn:hover{
+    transform: rotate(5deg);
+    cursor: pointer;
+}

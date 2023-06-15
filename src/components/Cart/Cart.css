@@ -1,0 +1,41 @@
+.ItemCart__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+
+}
+
+.Cart__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(229, 194, 0);
+    border-radius: 0.5rem;
+    color: rgb(229, 194, 0);
+    background-color: transparent;
+
+}
+
+.totalPrice{
+    font-size: 1.5rem;
+    color: rgb(17, 188, 17);
+    font-weight: bold;
+}
+
+.Cart__btns{
+    background-color: transparent;
+    color: rgb(229, 194, 0);
+    margin: 1rem;
+    border: 1px solid rgb(229, 194, 0);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 1s;
+}
+
+.Cart__btns:hover{
+    transform: rotate(5deg);
+    cursor: pointer;
+}
