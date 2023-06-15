@@ -6,7 +6,7 @@
         "marca": "Grant's Triple Wood",
         "precio": 6999,
         "stock": 12,
-        "img": "/img/prod1.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod1.png?alt=media&token=c3a78b53-705b-463d-a7e6-d819f9ad4126"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "marca": "Jack Daniel's",
         "precio": 7699,
         "stock": 8,
-        "img": "/img/prod2.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod2.png?alt=media&token=65e9eb2a-e326-4b12-8d68-3b1b6def3442"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "marca": "Johnnie Walker",
         "precio": 6299,
         "stock": 10,
-        "img": "/img/prod3.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod3.png?alt=media&token=545b9c26-eab7-48f4-b7a8-f9d111f3c84f"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "marca": "Jeam Beam",
         "precio": 60199,
         "stock": 8,
-        "img": "/img/prod4.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod4.png?alt=media&token=29779ec0-0b08-4f1d-a0c6-31b899eccb08"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "marca": "Premium",
         "precio": 3099,
         "stock": 41,
-        "img": "/img/prod5.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod5.png?alt=media&token=f423ebc6-ca11-4924-9c22-764dc3238e10"
     },
     {
         "id": 6,
@@ -51,7 +51,7 @@
         "marca": "White Horse",
         "precio": 2511,
         "stock": 28,
-        "img": "/img/prod6.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod6.png?alt=media&token=fffd7ac2-bb31-4cd5-adf8-4551aef75197"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "marca": "Johnnie Walker",
         "precio": 74389,
         "stock": 8,
-        "img": "/img/prod7.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod7.png?alt=media&token=b1d01228-f058-4e51-94e5-bf462fd1ad58"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "marca": "Chivas Regal",
         "precio": 10400,
         "stock": 19,
-        "img": "/img/prod8.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod8.png?alt=media&token=217f1d54-c777-4425-8d43-d213187b3f8f"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "marca": "Seagram's",
         "precio": 14999,
         "stock": 18,
-        "img": "/img/prod9.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod9.png?alt=media&token=37c07835-d078-41d2-aec5-85fcff0db0d1"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "marca": "The Dalmore King Alexander III",
         "precio": 149900,
         "stock": 4,
-        "img": "/img/prod10.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod10.png?alt=media&token=e6addb57-dbf4-4b3a-aee7-bb0e557ea050"
     },
     {
         "id": 11,
@@ -96,6 +96,6 @@
         "marca": "Royal Salute",
         "precio": 51149,
         "stock": 10,
-        "img": "/img/prod11.png"
+        "img": "https://firebasestorage.googleapis.com/v0/b/saywhisky-88741.appspot.com/o/prod11.png?alt=media&token=362f2e91-6a56-4372-b8d3-8d197e929096"
     }
 ]

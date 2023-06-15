@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { memo } from 'react';
 import './Categorias.css'
 
-export const Categorias = () => {
+export const Categorias = memo(() => {
     return (
         <div className='nav-col izq'>
             <Link className='indice' to={'/'}><p className='indice' >Inicio</p></Link>
@@ -12,4 +13,4 @@ export const Categorias = () => {
             <Link className='indice' to={`/category/Economicos`}><p className='indice'> Económicos </p></Link>
         </div>
     )
-}
+})
